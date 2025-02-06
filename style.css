@@ -1,0 +1,96 @@
+body{
+    background-color: aquamarine;
+    margin:0%;
+    padding:0%;
+}
+header p{
+    margin:auto;
+    padding-left:30%;
+    padding-top: 2%;
+    font-size: 3rem;
+    font-family: monospace;
+    color:brown;
+}
+input{
+    border:none;
+    height:30px;
+    width:20%;
+    margin:70px 0px 20px 250px;
+    padding:5px 5px 5px 25px;
+    border-radius: 5px;
+}
+input:focus{
+    outline: none;
+    border:none;
+}
+span{
+    font-size: 1.5rem;
+    margin-left:27%;
+    margin-right: 10%;
+}
+section #p{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#dice1,#dice2{
+    height:60px;
+    width:60px;
+    border-radius: 3px;
+    background-color:white;
+    color:blue;
+    font-size: 3.5rem;
+    font-weight: 900;
+    text-align: center;
+    padding:5px;
+}
+.roll{
+    animation:dice 1s ease-in;
+}
+#btn{
+    margin-left:43%;
+    height:50px;
+    width:150px;
+    border:none;
+    background-color: green;
+    color:white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 8px;
+}
+#btn:hover{
+    background-color: greenyellow;
+    color:darkgreen;
+}
+h3{
+    font-family: monospace;
+    margin-left: 42%;
+    font-size: 1.5rem;
+    color:rgb(110, 81, 8);
+}
+@keyframes dice{
+    0%{
+        transform: rotate(45deg);
+    }
+    15%{
+        transform: rotate(90deg);
+    }
+    30%{
+        transform: rotate(135deg);
+    }
+    45%{
+        transform: rotate(180deg);
+    }
+    60%{
+        transform: rotate(225deg);
+    }
+    75%{
+        transform: rotate(270deg);
+    }
+    90%{
+        transform: rotate(315deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
