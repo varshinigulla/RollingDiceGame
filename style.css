@@ -1,7 +1,7 @@
 body{
     background-color: aquamarine;
-    margin:0%;
-    padding:0%;
+    margin:0;
+    padding:0;
 }
 header p{
     margin:auto;
@@ -63,10 +63,11 @@ section #p{
     color:darkgreen;
 }
 h3{
-    font-family: monospace;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 42%;
     font-size: 1.5rem;
     color:rgb(110, 81, 8);
+    text-transform: uppercase;
 }
 @keyframes dice{
     0%{
